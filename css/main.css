@@ -182,7 +182,7 @@ a {
   color: var(--main-text-color);
 }
 
-.sitenav__link:hover{
+.sitenav__link:hover {
   color: #333D4B;
 }
 
@@ -1528,7 +1528,7 @@ a {
   transition: color 0.5s ease;
 }
 
-.bottom-nav__link:hover{
+.bottom-nav__link:hover {
   color: var(--second-text-color);
   transition: color 0.5s ease;
 }
@@ -1624,3 +1624,346 @@ a {
     margin-left: auto;
   }
 }
+
+
+/* ABOUT     PAGE     START */
+
+/* ABOUT HERO SECTION START */
+
+.about-hero {
+  padding-bottom: 120px;
+}
+
+.about-hero__inner {
+  padding-top: 111px;
+  padding-bottom: 87px;
+  background-image: url("../images/about-hero-bgi-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  border-radius: 10px;
+}
+
+.about-hero__info {
+  max-width: 279px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-hero__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: var(--second-font-family);
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FEFCF7;
+}
+
+.about-hero__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+/* ABOUT-HERO SECTION TABLET STYLES START */
+
+@media only screen and (min-width: 600px) {
+
+  .about-hero {
+    padding-bottom: 144px;
+  }
+
+  .about-hero__inner {
+    padding: 118px 0;
+    padding-left: 58px;
+    background-image: url("../images/about-hero-bgi-tablet.png");
+    background-position: center right;
+  }
+
+  .about-hero__info {
+    max-width: 398px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .about-hero__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+
+/* ABOUT-HERO SECTION DESCTOP STYLES START */
+
+@media only screen and (min-width: 1024px) {
+  .about-hero {
+    padding-bottom: 168px;
+  }
+
+  .about-hero__inner {
+    padding: 137px 0;
+    padding-left: 85px;
+    background-image: url("../images/about-hero-bgi-desctop.png");
+    background-position: center right;
+  }
+
+  .about-hero__info {
+    max-width: 445px;
+  }
+
+  .about-hero__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .about-hero__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* COMMITMENT SECTION START */
+
+.commitment {
+  padding-bottom: 120px;
+}
+
+.commitment__inner {
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+.commitment__img--mobile {
+  margin-bottom: 48px;
+}
+
+.commitment__img--desctop {
+  display: none;
+}
+
+.commitment__img--tablet {
+  display: none;
+}
+
+.cpommitment__info {
+  max-width: 327px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.commitment__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: var(--second-font-family);
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.commitment__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 375px) {
+  .commitment__img--mobile {
+    width: 300px;
+  }
+}
+
+/* COMMITMENT SECTION TABLET STYLES START */
+
+@media only screen and (min-width: 600px) and (max-width: 720px) {
+  .commitment__inner {
+    max-width: 527px;
+    margin: 0 auto;
+  }
+
+  .commitment__img--mobile {
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+
+  .cpommitment__info {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 720px) {
+  .commitment {
+    padding-bottom: 144px;
+  }
+
+  .commitment__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .commitment__img--tablet {
+    display: block;
+  }
+
+  .commitment__img--mobile {
+    display: none;
+  }
+
+  .cpommitment__info {
+    max-width: 339px;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+/* COMMITMENT SECTION DESCTOP STYLES START */
+
+@media only screen and (min-width: 1024px) {
+
+  .commitment {
+    padding-bottom: 168px;
+  }
+
+
+  .commitment__inner {
+    max-width: 1110px;
+  }
+
+  .commitment__img--desctop {
+    display: block;
+    margin-right: 40px;
+  }
+
+  .commitment__img--tablet {
+    display: none;
+  }
+
+  .cpommitment__info {
+    max-width: 540px;
+  }
+
+  .commitment__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .commitment__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* QUALITY SECTION START */
+
+.quality {
+  padding-top: 78px;
+  padding-bottom: 120px;
+}
+
+.quality__inner {
+  position: relative;
+  padding-top: 142px;
+  padding-bottom: 61px;
+  background-color: #293039;
+  border-radius: 10px;
+}
+
+.quality__inner::before {
+  content: "";
+  position: absolute;
+  top: -78px;
+  left: calc(50% - 140px);
+  z-index: 3;
+  width: 279px;
+  height: 156px;
+  background-image: url("../images/quality-img-mobile.png");
+}
+
+.quality__info {
+  max-width: 279px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quality__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: var(--second-font-family);
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FEFCF7;
+}
+
+.quality__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+/* QUALITY SECTION TABLET STYLES START */
+
+@media only screen and (min-width: 700px) {
+  .quality {
+    padding-top: 160px;
+    padding-bottom: 144px;
+  }
+
+  .quality__inner::before {
+    top: -160px;
+    left: calc(50% - 286px);
+    width: 573px;
+    height: 320px;
+    background-image: url("../images/quality-img-tablet.png");
+   
+  }
+
+  .quality__info {
+    max-width: 540px;
+  }
+
+  .quality__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+
+  .quality__inner {
+    padding-top: 224px;
+    padding-bottom: 67px;
+  }
+
+  .quality__inner::before {
+    top: -160px;
+    left: calc(50% - 236px);
+    width: 473px;
+    height: 300px;
+    background-image: url("../images/quality-img-tablet.png");
+    background-position: center;
+    border-radius: 6px;
+  }
+
+  .quality__info {
+    max-width: 440px;
+  }
+
+}
+
+
+
+/* QUALITY SECTION DESCTOP STYLES START */
