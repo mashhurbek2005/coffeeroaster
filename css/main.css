@@ -1928,7 +1928,7 @@ a {
     width: 573px;
     height: 320px;
     background-image: url("../images/quality-img-tablet.png");
-   
+
   }
 
   .quality__info {
@@ -1941,7 +1941,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
 
   .quality__inner {
     padding-top: 224px;
@@ -1964,6 +1964,234 @@ a {
 
 }
 
-
-
 /* QUALITY SECTION DESCTOP STYLES START */
+
+@media only screen and (min-width: 1024px) {
+  .quality {
+    padding-top: 92px;
+    padding-bottom: 164px;
+  }
+
+  .quality__inner {
+    padding: 84px 0 180px 30px;
+  }
+
+  .quality__inner::before {
+    top: -72px;
+    left: calc(50% + 60px);
+    width: 400px;
+    height: 474px;
+    background-image: url("../images/quality-img-desctop.png");
+  }
+
+  .quality__info {
+    max-width: 460px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .quality__title {
+    margin-bottom: 32px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .quality__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+  .quality__inner {
+    padding-left: 79px;
+  }
+
+  .quality__inner::before {
+    top: -92px;
+    left: calc(50% + 90px);
+    width: 445px;
+    height: 474px;
+  }
+
+  .quality__info {
+    max-width: 540px;
+  }
+}
+
+
+/* LOCATION SECTION START */
+
+.location {
+  padding-bottom: 120px;
+}
+
+.location__inner {
+  text-align: center;
+}
+
+.location__title {
+  margin: 0;
+  margin-bottom: 72px;
+  font-family: var(--second-font-family);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.location__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.location__item {
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+.location__item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.location__item::before {
+  display: block;
+  content: "";
+  width: 41px;
+  height: 49px;
+  margin: 0 auto;
+  margin-bottom: 47px;
+  background-image: url("../images/uk-location.svg");
+  background-repeat: no-repeat;
+}
+
+.location__item:nth-child(2)::before {
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/canada-location.svg");
+}
+
+.location__item:nth-child(3)::before {
+  width: 49px;
+  height: 44px;
+  background-image: url("../images/australia-location.svg");
+}
+
+.location__item-box {
+  max-width: 100%;
+}
+
+.location__heading {
+  margin: 0;
+  margin-bottom: 22px;
+  font-family: var(--second-font-family);
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.location__address {
+  font-style: normal;
+}
+
+.location__link {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.location__tel {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+/* LOCATION SECTION TABLET STYLES START */
+
+@media only screen and (min-width: 600px) {
+
+  .location {
+    padding-bottom: 144px;
+  }
+
+  .location__inner {
+    text-align: left;
+  }
+
+  .location__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .location__item {
+    max-width: 250px;
+    margin: 0;
+  }
+
+  .location__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .location__item::before {
+    margin: 0;
+    margin-bottom: 48px;
+  }
+
+  .location__item:nth-child(2)::before {
+    margin-bottom: 49px;
+  }
+
+  .location__item:nth-child(3)::before {
+    margin-bottom: 56px;
+  }
+
+  .location__heading {
+    margin-bottom: 21px;
+    font-size: 24px;
+  }
+}
+
+/* LOCATION SECTION DESCTOP STYLES START */
+
+@media only screen and (min-width: 1024px) {
+
+  .location {
+    padding-bottom: 168px;
+  }
+
+  .location__inner {
+    max-width: 1051px;
+    margin: 0 auto;
+  }
+
+  .location__item {
+    max-width: 287px;
+  }
+
+  .location__item::before {
+    margin: 0;
+    margin-bottom: 46px;
+  }
+
+  .location__item:nth-child(2)::before {
+    margin-bottom: 45px;
+  }
+
+  .location__item:nth-child(3)::before {
+    margin-bottom: 49px;
+  }
+
+  .location__heading {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+}
