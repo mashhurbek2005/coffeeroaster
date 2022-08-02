@@ -2604,6 +2604,10 @@ a {
   background-color: #0A775F;
 }
 
+.selection__radio-info-box:hover{
+  background-color: #FDD6BA;
+}
+
 .form-input:checked~.selection__radio-info-box .selection__heading {
   color: #fff;
 }
